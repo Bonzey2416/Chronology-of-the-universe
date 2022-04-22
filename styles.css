@@ -1,6 +1,7 @@
 html {
   font-family: Montserrat, Helvetica Neue, sans-serif;
-  background: #eee;
+  background: #fff;
+  color: #333;
 }
 
 .header {
@@ -10,5 +11,22 @@ html {
   padding: 0;
   top: 0;
   border-bottom: 1px solid gray;
+  background: #eee;
 }
 
+a:link {
+  color: #336;
+}
+
+a:visited {
+  color: #636;
+}
+
+a:hover {
+  color: #669;
+}
+
+a.headertitle {
+  color: #333;
+  text-decoration: none;
+}
