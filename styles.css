@@ -5,8 +5,8 @@ html {
 }
 
 .header {
-  width: calc(100%-16px);
-  position: fixed;
+  width: calc(100% - 16px);
+  height: 60px;
   padding: 16px 8px 16px 8px;
   top: 0;
   border-bottom: 1px solid gray;
@@ -16,11 +16,19 @@ html {
 
 .article {
   float: right;
-  width: calc(100%-320px);
+  width: calc(100% - 320px);
   background: #fff;
   padding: 16px;
   line-height: 1.25;
   margin: 16px;
+  border-radius: 8px;
+}
+
+.menu {
+  float: left;
+  width: 192px;
+  padding: 32px;
+  line-height: 1.25;
 }
 
 a:link {
