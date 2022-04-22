@@ -1,5 +1,6 @@
 html {
   font-family: Montserrat, Helvetica Neue, sans-serif;
+  background: #eee;
 }
 
 .header {
@@ -7,5 +8,7 @@ html {
   height: 64px;
   position: fixed;
   padding: 0;
-  top: 0
+  top: 0;
+  border-bottom: 1px solid gray;
 }
+
